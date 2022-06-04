@@ -3,7 +3,7 @@ Probably the simplest pomodoro timer CLI for Linux
 
 ### Installation
 
-Place the `pomo.sh` file in `$HOME/.local/bin` or `/usr/local/bin` folders
+Place the `pomo.sh` file in `$HOME/.local/bin` or `/usr/local/bin` folders (make sure they're in the path). Make sure you made it executable ('chmod +x')
 
 ### Usage
 - First argument: work time in minutes
