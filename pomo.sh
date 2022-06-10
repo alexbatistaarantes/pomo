@@ -10,9 +10,9 @@ arg1=$1
 arg2=$2
 
 work_min=${arg1:?Example: pomo 15 5}
-work_sec=$((min * 60))
+work_sec=$((work_min * 60))
 break_min=${arg2:?Example: pomo 15 5}
-break_sec=$((min * 60))
+break_sec=$((break_min * 60))
 
 echo "Pomodoro started"
 echo "\t${work_min} minutes of work"
