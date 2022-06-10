@@ -4,7 +4,7 @@ work_msg="Let's work!"
 break_msg="Take a break!"
 play_sound=false
 sound_path="~/Music/bell.mp3"
-play_command="paplay --volume=35000 '${sound_path}'"
+play_command="paplay --volume=35000 ${sound_path}"
 
 arg1=$1
 arg2=$2
